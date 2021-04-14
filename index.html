@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>CASE-STUDY</title>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="webcamjs/webcam.min.js"></script>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h2>CASE-STUDY<img src="images.jpg"></h2>
+        </div>
+        <center>
+        <br><br>
+        <div class=" col-sm-6 col-xs-12 main_div">
+            <div id="camera">
+            </div>
+            <button class="btn btn-success" onclick="take_snapshot()">Capture Image</button>
+            </div>
+            <div class="col-sm-4 compare_div">
+                <h4>CASE-STUDY -<span></span> </h4>
+                <h4>Mobile-net -<span></span> </h4>
+            </div>
+            <div class="col-sm-4 main_div">
+            <div id="image"></div>
+            <button class="btn btn-info" onclick="check()">Identify Image</button>
+        </div>
+        </center>
+    </body>
+</html>
